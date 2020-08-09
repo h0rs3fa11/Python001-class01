@@ -34,24 +34,21 @@ class Cat(Animal):
 class Zoo(object):
     def __init__(self, name):
         self.name = name
-        self.animals = {}
+        self.animals = []
     # def __set__(self, instance, value):
     #     print(f'__set__{instance} {value}')
     #     self.animals.append(value)
 
     def add_animal(self, animal):
-        animal_id = id(animal)
         animal_name = animal.__class__.__name__
 
-        if animal_id in self.animals:
-            print(f"{animal_id}{animal_name} exist")
+        if animal_name in self.animals:
+            print(f"Zoo already have {animal_name}")
             return
-        self.animals[animal_id] = animal
+        self.animals.append(animal_name)
 
         if not hasattr(self, animal_name):
-            setattr(self, animal_name, [animal])
-        else:
-            getattr(self, animal_name).append(animal)
+            setattr(self, animal_name, animal)
 
     @property
     def animal(self):
@@ -68,4 +65,4 @@ z.add_animal(cat1)
 # 动物园是否有猫这种动物
 have_cat = getattr(z, 'Cat')
 z.add_animal(cat1)
-print(bool(have_cat), len(have_cat))
+print(bool(have_cat), have_cat.name)

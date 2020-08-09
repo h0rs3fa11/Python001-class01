@@ -3,6 +3,7 @@
 */include
 *.pyc
 */lib64
+*/pyvenv.cfg
 db_config.py
 config.py
 test_server.py
