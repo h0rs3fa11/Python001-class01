@@ -1,7 +1,8 @@
 import time
+import functools
 
-
-def timer(func, *args, **kw):
+def timer(func):
+    @functools.wraps(func)
     def decorator(*args, **kw):
         start_time = time.time()
         result = func(*args, **kw)
@@ -13,6 +14,7 @@ def timer(func, *args, **kw):
 
 @timer
 def add_test(a, b):
+    print(f"function name is {add_test.__name__}")
     return a + b
 
 
