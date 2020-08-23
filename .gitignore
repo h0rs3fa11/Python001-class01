@@ -8,3 +8,5 @@ db_config.py
 config.py
 test_server.py
 *_test.py
+.vscode
+.idea
