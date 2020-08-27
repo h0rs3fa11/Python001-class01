@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseNotAllowed
 from .form import LoginForm
 from django.contrib.auth import authenticate, login
 
@@ -25,3 +25,5 @@ def my_login(request):
     if request.method == 'GET':
         login_form = LoginForm()
         return render(request, 'form.html', {'form': login_form})
+    else:
+        return HttpResponseNotAllowed('GET POST')
