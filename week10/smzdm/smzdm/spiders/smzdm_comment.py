@@ -14,9 +14,11 @@ class SmzdmCommentSpider(scrapy.Spider):
             comment = response.xpath(
                 f'//*[@id="{comment_id}"]/div[@class="comment_conBox"]/div[@class="comment_conWrap"]/div[@class="comment_con"]/p/span/text()').extract_first().strip()
             comment = "".join(comment)
+            good_name = response.xpath('//*[@id="feed-main"]/div[@class="info J_info"]/div/div[@class="title-box"]/h1/text()').extract_first().strip()
             items['comment_id'] = comment_id
             items['comment_text'] = comment
             items['goods_id'] = gid
+            items['good_name'] = good_name
             yield items
         next_page = response.xpath(
             '//*[@id="commentTabBlockNew"]/ul[@class="pagination"]/li[@class="pagedown"]/a/@href').get()

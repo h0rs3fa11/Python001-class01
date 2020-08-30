@@ -10,6 +10,7 @@ class SmzdmItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     goods_id = scrapy.Field()
+    good_name = scrapy.Field()
     comment_id = scrapy.Field()
     comment_text = scrapy.Field()
 

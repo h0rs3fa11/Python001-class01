@@ -59,7 +59,7 @@ class SmzdmPipeline:
             return item
 
         # 更新goods表
-        sql = f"""INSERT IGNORE INTO {self.good_table} (good_id) VALUES ("{item['goods_id']}")"""
+        sql = f"""INSERT IGNORE INTO {self.good_table} (good_id, good_name) VALUES ("{item['goods_id']}", "{item['good_name']}")"""
         try:
             cursor.execute(sql)
             self.db.commit()
