@@ -6,6 +6,8 @@
 */pyvenv.cfg
 db_config.py
 config.py
+check_result.py
+result.json
 test_server.py
 *_test.py
 .vscode

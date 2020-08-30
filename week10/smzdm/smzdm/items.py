@@ -9,4 +9,10 @@ import scrapy
 class SmzdmItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    goods_id = scrapy.Field()
+    comment_id = scrapy.Field()
+    comment_text = scrapy.Field()
+
+
+class SmzdmGoodItem(scrapy.Item):
+    goods_id = scrapy.Field()
