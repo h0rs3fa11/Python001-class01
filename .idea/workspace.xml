@@ -20,46 +20,102 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c06a881-440a-4558-bd03-b4560266da4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week10/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/check_result.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/scrapy.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/smzdm/smzdm/spiders/smzdm_comment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python001-class01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python001-class01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/jquery.slotmachine.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/responsive.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.slotmachine.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/base_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/douban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/flot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/grid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/notifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/panels-wells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/typography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week10/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +125,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/h0rs3fa11/Python001-class01" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1fTxQhUYpYtRunjrU1PcRyTU22u" />
   <component name="ProjectLevelVcsManager">
@@ -89,7 +152,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10/smzdm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10/pubopinion_analysis/index" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -101,10 +164,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week10/pubopinion_analysis/index" />
       <recent name="$PROJECT_DIR$/week10/smzdm" />
       <recent name="$PROJECT_DIR$/week10/smzdm/smzdm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week10/pubopinion_analysis/index" />
       <recent name="$PROJECT_DIR$/week10/smzdm" />
       <recent name="$PROJECT_DIR$/week09" />
     </key>
@@ -312,45 +377,45 @@
     </state>
     <state x="507" y="183" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1598538415336" />
     <state x="507" y="188" key="FileChooserDialogImpl/0.23.1440.811@0.23.1440.811" timestamp="1597481971582" />
-    <state width="1419" height="235" key="GridCell.Tab.0.bottom" timestamp="1598777936275">
+    <state width="1419" height="319" key="GridCell.Tab.0.bottom" timestamp="1598796264593">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598777936275" />
+    <state width="1419" height="319" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598796264593" />
     <state width="1419" height="197" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1598168536760" />
-    <state width="1419" height="235" key="GridCell.Tab.0.center" timestamp="1598777936274">
+    <state width="1419" height="319" key="GridCell.Tab.0.center" timestamp="1598796264592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598777936274" />
+    <state width="1419" height="319" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598796264592" />
     <state width="1419" height="197" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1598168536758" />
-    <state width="1419" height="235" key="GridCell.Tab.0.left" timestamp="1598777936273">
+    <state width="1419" height="319" key="GridCell.Tab.0.left" timestamp="1598796264591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598777936273" />
+    <state width="1419" height="319" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598796264591" />
     <state width="1419" height="197" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1598168536754" />
-    <state width="1419" height="235" key="GridCell.Tab.0.right" timestamp="1598777936275">
+    <state width="1419" height="319" key="GridCell.Tab.0.right" timestamp="1598796264592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598777936275" />
+    <state width="1419" height="319" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598796264592" />
     <state width="1419" height="197" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1598168536759" />
-    <state width="1419" height="235" key="GridCell.Tab.1.bottom" timestamp="1598777936277">
+    <state width="1419" height="300" key="GridCell.Tab.1.bottom" timestamp="1598795965543">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598777936277" />
+    <state width="1419" height="300" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598795965543" />
     <state width="1419" height="228" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1598168536744" />
-    <state width="1419" height="235" key="GridCell.Tab.1.center" timestamp="1598777936276">
+    <state width="1419" height="300" key="GridCell.Tab.1.center" timestamp="1598795965542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1598777936276" />
+    <state width="1419" height="300" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1598795965542" />
     <state width="1419" height="228" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1598168536742" />
-    <state width="1419" height="235" key="GridCell.Tab.1.left" timestamp="1598777936276">
+    <state width="1419" height="300" key="GridCell.Tab.1.left" timestamp="1598795965542">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1598777936276" />
+    <state width="1419" height="300" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1598795965542" />
     <state width="1419" height="228" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1598168536741" />
-    <state width="1419" height="235" key="GridCell.Tab.1.right" timestamp="1598777936277">
+    <state width="1419" height="300" key="GridCell.Tab.1.right" timestamp="1598795965543">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="235" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1598777936277" />
+    <state width="1419" height="300" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1598795965543" />
     <state width="1419" height="228" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1598168536743" />
     <state x="221" y="48" key="SettingsEditor" timestamp="1598538420881">
       <screen x="0" y="0" width="1440" height="900" />
@@ -382,7 +447,7 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="cursor.fetchall()" language="Python" />
+        <watch expression="response.xpath('//*[@id=&quot;feed-main&quot;]/div[@class=&quot;info J_info&quot;]/div/div[@class=&quot;title-box&quot;]/h1/text()').extract_first().strip()" language="Python" />
         <watch expression="response.xpath('//*[@id=&quot;commentTabBlockNew&quot;]/ul[@class=&quot;pagination&quot;]/li[@class=&quot;pagedown&quot;]/a/@href').get()" language="Python" />
         <watch expression="content.xpath('//*[@id=&quot;commentTabBlockNew&quot;]/ul[1]/li')" language="Python" />
         <watch expression="response.xpath(f'//*[@id=&quot;{comment_id}&quot;]/div[@class=&quot;comment_conBox&quot;]/div[@class=&quot;comment_conWrap&quot;]/div[@class=&quot;comment_con&quot;]/p/span/text()').extract_first().strip()" language="Python" />

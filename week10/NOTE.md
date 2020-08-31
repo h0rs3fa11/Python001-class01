@@ -49,6 +49,7 @@ mysql> SHOW FULL COLUMNS FROM goods;
 | Field   | Type    | Collation          | Null | Key  | Default | Extra | Privileges                      |
 | ------- | ------- | ------------------ | ---- | ---- | ------- | ----- | ------------------------------- |
 | good_id | char(8) | utf8mb4_0900_ai_ci | NO   | PRI  | NULL    |       | select,insert,update,references |
+| good_name | varchar(50) | utf8mb4_0900_ai_ci | NO   |   | NULL    |       | select,insert,update,references |
 
 ```sql
 mysql> SHOW FULL COLUMNS FROM origin_comments;

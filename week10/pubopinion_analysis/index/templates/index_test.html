@@ -1,0 +1,14 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品</title>
+</head>
+<body>
+
+{% for comm in analysis_comment %}
+    <div>Name: {{ comm.good.good_name }}   <br>
+           评论: {{ comm.content }} <br>
+           情感倾向:  {{ comm.sentiments }}
+    </div>
+{% endfor %}
+</body>
