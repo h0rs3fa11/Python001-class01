@@ -10,5 +10,6 @@ check_result.py
 result.json
 test_server.py
 *_test.py
-.vscode
-.idea
+.vscode/
+.idea/
+.DS_Store
