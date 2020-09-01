@@ -76,16 +76,14 @@
                                 <thead>
                                     <tr>
                                         <th>商品名</th>
-                                        <th>评论</th>
-                                        <th>情感倾向</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {% for comm in analysis_comment %}
+                                    {% for g in goods %}
                                         <tr>
-                                            <td>{{comm.good.good_name}}</td>
-                                            <td>{{comm.content}}</td>
-                                            <td>{{comm.sentiments}}</td>
+                                            <td>
+                                                <a href="{% url 'smzdm:good_info' g.good_id %}">{{g.good_name}}</a>
+                                            </td>
                                         </tr>
                                     {% endfor %}
                                 </tbody>

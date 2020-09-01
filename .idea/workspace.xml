@@ -20,102 +20,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c06a881-440a-4558-bd03-b4560266da4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/jquery.slotmachine.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/metisMenu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/responsive.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/sb-admin-2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/flot-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.colorhelpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.crosshair.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.errorbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.fillbetween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.navigate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.pie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.symbol.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.threshold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.slotmachine.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/metisMenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/sb-admin-2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/base_layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/douban.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/flot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/forms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index_test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/notifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/panels-wells.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/comment_search_result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/good_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/week10/NOTE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/dataTables.bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/jquery.slotmachine.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/jquery.slotmachine.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/metisMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/metisMenu.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/morris.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/responsive.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/responsive.dataTables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/sb-admin-2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/css/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/timeline.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/images/sort_asc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/images/sort_both.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/images/sort_desc_disabled.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/dataTables.bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/excanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/flot-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/flot-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.colorhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.colorhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.categories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.crosshair.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.crosshair.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.errorbars.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.errorbars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.fillbetween.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.fillbetween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.image.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.navigate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.stack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.threshold.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.threshold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.time.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/jquery.slotmachine.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/jquery.slotmachine.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/metisMenu.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/morris-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/morris.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/morris.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/raphael-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/raphael-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/static/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/sb-admin-2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/base_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/base_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/douban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/flot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/index_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/index_test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/morris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/panels-wells.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/panels-wells.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/templates/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/templates/typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/index/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/pubopinion_analysis/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +141,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10/pubopinion_analysis/index" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -169,6 +158,7 @@
       <recent name="$PROJECT_DIR$/week10/smzdm/smzdm" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week10/pubopinion_analysis/smzdm" />
       <recent name="$PROJECT_DIR$/week10/pubopinion_analysis/index" />
       <recent name="$PROJECT_DIR$/week10/smzdm" />
       <recent name="$PROJECT_DIR$/week09" />

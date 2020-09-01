@@ -1,7 +1,8 @@
-from django.urls import path
+from django.urls import re_path, path
 from . import views
 
+app_name = 'smzdm'
 urlpatterns = [
-    # 设置商品参数 类似{good_id}/进入商品详情页
-    path('phone/', views.phone)
+    path('', views.index),
+    re_path('(?P<id>[0-9]{8}).html', views.good_info, name='good_info')
 ]
