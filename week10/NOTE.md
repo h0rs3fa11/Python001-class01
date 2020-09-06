@@ -59,6 +59,7 @@ mysql> SHOW FULL COLUMNS FROM origin_comments;
 | comm_id | char(20)      | utf8mb4_0900_ai_ci | NO   | PRI  | NULL    |       | select,insert,update,references |
 | content | varchar(1000) | utf8mb4_0900_ai_ci | YES  |      | NULL    |       | select,insert,update,references |
 | good_id | char(8)       | utf8mb4_0900_ai_ci | NO   | MUL  | NULL    |       | select,insert,update,references |
+| time    | datatime      | NULL               | YES  |      | NULL    |       | select,insert,update,references |
 
 另外还有一个语义分析后的表`analysis_comments`，外键也是`goods`表中的`good_id`
 | Field      | Type          | Collation          | Null | Key  | Default | Extra | Privileges                      |
@@ -117,3 +118,117 @@ execute(['scrapy', 'runspider', 'smzdm/spiders/smzdm_comment.py'])
 ```
 
 在Pycharm中配置`Run-Edit Configurations`， `+` 添加新配置，并在`script path`中选择`run.py`
+
+### Web模块
+
+django框架结合bootstrap进行数据展示
+
+主要分为两个页面，主页和具体商品信息页与搜索结果页，在app下面的urls.py中配置，对应不同的views
+
+配置好mysql连接并用manager.py的inspectdb命令导出数据库的models
+
+#### 数据展示
+
+主页中要展示的信息是商品总数、评论总数，以及商品列表，不需要对models的数据进行筛选，主要代码如下
+
+```python
+# 商品id
+goods = Goods.objects.all()
+# 商品名称
+good_name = Goods.objects.values('good_name')
+# 商品总数
+goods_count = Goods.objects.all().count()
+# 评论总数
+comment_count = OriginComments.objects.all().count()
+return render(request, 'index.html', locals())
+```
+
+商品名称`good_name`在html中用for循环逐条展示
+
+实现了从商品名称直接点击进入对应商品详情页的功能
+
+```html
+{% for g in goods %}
+<tr>
+<td>
+<a href="{% url 'smzdm:good_info' g.good_id %}">{{g.good_name}}</a>
+</td>
+</tr>
+{% endfor %}
+```
+
+超链接调用views的`good_info`，传入参数商品id
+
+
+
+接下来是商品详情页
+
+商品详情页做了一些筛选
+
+```python
+# 筛选当前商品对应的评论
+queryset = AnalysisComments.objects.values('content')
+conditions = {'good_id__exact': id}
+comments_count = queryset.filter(**conditions).count()
+#获取当前商品对应的商品名
+good_name = Goods.objects.values('good_name').filter(**conditions)[0]['good_name']
+#筛选情感倾向，并计算平均值
+queryset = AnalysisComments.objects.values('sentiments')
+sent_avg = f"{queryset.filter(**conditions).aggregate(Avg('sentiments'))['sentiments__avg']:0.2}"
+#筛选负向评论
+queryset = AnalysisComments.objects.values('sentiments')
+sent_cond = {'sentiments__lt': 0.5}
+minus = queryset.filter(**conditions).filter(**sent_cond).count()
+#筛选正向评论
+sent_cond = {'sentiments__gte': 0.5}
+plus = queryset.filter(**conditions).filter(**sent_cond).count()
+#获取当前商品对应的所有评论
+queryset = AnalysisComments.objects.all()
+analysis_comment = queryset.filter(**conditions)
+```
+
+
+
+#### 搜索
+
+将侧边栏`base_layout.html`中的搜索表单改为
+
+```html
+<form role="search" method="get" action="/search/">
+      {% csrf_token %}
+			<input type="search" name="q" placeholder="Search" required>
+            <button class="btn btn-default" type="submit">
+                 <i class="fa fa-search"></i>
+            </button>
+</form>
+```
+
+urlconf中添加筛选的url
+
+```python
+re_path('search\/.*', views.search, name='search')
+```
+
+在view中定义search函数
+
+```python
+def search(request):
+    query = request.GET.get('q')
+    try:
+        search_date = datetime.strptime(query, "%Y-%m-%d")
+        query_date = search_date.strftime("%Y-%m-%d")
+        goods_result = None
+        comment_result = OriginComments.objects.filter(time__gte=query_date)
+    except ValueError:
+        goods_result = Goods.objects.filter(good_name__icontains=query)
+        comment_result = OriginComments.objects.filter(content__icontains=query)
+    return render(request, 'comment_search_result.html',
+                  {'error_msg': 0, 'result': {"goods": goods_result, "comments": comment_result}})
+```
+
+并在结果页展示
+
+#### 爬虫定时任务
+
+使用scrapyd部署scrapy项目，然后将scrapyd命令添加到django定时任务中
+

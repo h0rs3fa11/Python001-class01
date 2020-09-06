@@ -1,0 +1,112 @@
+2020-09-05 16:19:54 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: smzdm)
+2020-09-05 16:19:54 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.5 (default, Aug 23 2020, 19:20:57) - [Clang 11.0.0 (clang-1100.0.33.17)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.1, Platform macOS-10.15.6-x86_64-i386-64bit
+2020-09-05 16:19:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-09-05 16:19:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'smzdm',
+ 'DOWNLOAD_DELAY': 3,
+ 'LOG_FILE': 'logs/smzdm/smzdm_comment/927390d8ef5011eab0b6acde48001122.log',
+ 'NEWSPIDER_MODULE': 'smzdm.spiders',
+ 'SPIDER_MODULES': ['smzdm.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/41.0.2225.0 Safari/537.36'}
+2020-09-05 16:19:54 [scrapy.extensions.telnet] INFO: Telnet Password: b734561e20d96aa4
+2020-09-05 16:19:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-09-05 16:19:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-09-05 16:19:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-09-05 16:19:57 [scrapy.middleware] INFO: Enabled item pipelines:
+['smzdm.pipelines.SmzdmPipeline']
+2020-09-05 16:19:57 [scrapy.core.engine] INFO: Spider opened
+2020-09-05 16:19:57 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2020-09-05 16:19:57 [scrapy.core.engine] ERROR: Scraper close failure
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/pymysql/connections.py", line 569, in connect
+    sock = socket.create_connection(
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/scrapy/crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/private/var/folders/gq/d76x3lmn7zz1_0l30jkdrr5w0000gn/T/smzdm-1599293861-e_4eblny.egg/smzdm/pipelines.py", line 54, in close_spider
+AttributeError: 'SmzdmPipeline' object has no attribute 'db'
+2020-09-05 16:19:57 [scrapy.utils.signal] ERROR: Error caught on signal handler: <bound method CoreStats.spider_closed of <scrapy.extensions.corestats.CoreStats object at 0x11183fc40>>
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/pymysql/connections.py", line 569, in connect
+    sock = socket.create_connection(
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/scrapy/crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/scrapy/utils/defer.py", line 164, in maybeDeferred_coro
+    result = f(*args, **kw)
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/pydispatch/robustapply.py", line 55, in robustApply
+    return receiver(*arguments, **named)
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/scrapy/extensions/corestats.py", line 31, in spider_closed
+    elapsed_time = finish_time - self.start_time
+TypeError: unsupported operand type(s) for -: 'datetime.datetime' and 'NoneType'
+2020-09-05 16:19:57 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'log_count/ERROR': 2, 'log_count/INFO': 8}
+2020-09-05 16:19:57 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2020-09-05 16:19:57 [twisted] CRITICAL: Unhandled error in Deferred:
+2020-09-05 16:19:57 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/pymysql/connections.py", line 569, in connect
+    sock = socket.create_connection(
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/local/Cellar/python@3.8/3.8.5/Frameworks/Python.framework/Versions/3.8/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/twisted/internet/defer.py", line 1418, in _inlineCallbacks
+    result = g.send(result)
+  File "/Users/h0rs3/Work/学习/python训练营/Python001-class01/week10/lib/python3.8/site-packages/scrapy/crawler.py", line 89, in crawl
+    yield self.engine.open_spider(self.spider, start_requests)
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '127.0.0.1' ([Errno 61] Connection refused)")

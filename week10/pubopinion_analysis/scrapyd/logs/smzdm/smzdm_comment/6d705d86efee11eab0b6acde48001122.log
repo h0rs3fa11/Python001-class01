@@ -1,0 +1,1175 @@
+2020-09-06 11:09:54 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: smzdm)
+2020-09-06 11:09:54 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.5 (default, Aug 23 2020, 19:20:57) - [Clang 11.0.0 (clang-1100.0.33.17)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.1, Platform macOS-10.15.6-x86_64-i386-64bit
+2020-09-06 11:09:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2020-09-06 11:09:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'smzdm',
+ 'DOWNLOAD_DELAY': 3,
+ 'LOG_FILE': 'logs/smzdm/smzdm_comment/6d705d86efee11eab0b6acde48001122.log',
+ 'NEWSPIDER_MODULE': 'smzdm.spiders',
+ 'SPIDER_MODULES': ['smzdm.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like '
+               'Gecko) Chrome/31.0.1650.16 Safari/537.36'}
+2020-09-06 11:09:54 [scrapy.extensions.telnet] INFO: Telnet Password: 01bb34ef68cdaf27
+2020-09-06 11:09:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-09-06 11:09:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-09-06 11:09:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-09-06 11:09:57 [scrapy.middleware] INFO: Enabled item pipelines:
+['smzdm.pipelines.SmzdmPipeline']
+2020-09-06 11:09:57 [scrapy.core.engine] INFO: Spider opened
+2020-09-06 11:09:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-09-06 11:09:57 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-09-06 11:09:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/#feed-main/> (referer: None)
+2020-09-06 11:09:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/>
+{'goods_id': ['24552289',
+              '24548185',
+              '24552245',
+              '24549877',
+              '24552510',
+              '24554810',
+              '24552335',
+              '24561524',
+              '24545777',
+              '24554015']}
+2020-09-06 11:10:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24552289/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169479164',
+ 'comment_text': '每节都有动力，嘿嘿，地外黑科技。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169479133',
+ 'comment_text': '把后面的4000减掉247，我就买了。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169479100',
+ 'comment_text': '要是买手机送直升机那还差不多',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169478020',
+ 'comment_text': '这个价格把这个公司买下来不是更好',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169477335',
+ 'comment_text': '等我买了它，在好好干几年，多攒点私房钱，算算差不多了，一天吃一个馒头省下10块钱，目标不远了，等我买了谁送个手机壳给我。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169477220',
+ 'comment_text': '不是中国就一部吗怎么还有一个',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169477206',
+ 'comment_text': '有开车价吗 诚意要',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169476768',
+ 'comment_text': '拿铁丝串起来当火车开',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169475484',
+ 'comment_text': '哪个傻子买它',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169474947',
+ 'comment_text': '可以搞一个租车公司了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169474229',
+ 'comment_text': '都来捡漏占便宜',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169474079',
+ 'comment_text': '亲: 你付款加个备注， 可以安排大强子骑小三轮送货的',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169472950',
+ 'comment_text': '我京东购物车里有一千五百万的商品了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169471860',
+ 'comment_text': '直升机配送。厉害。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169471403',
+ 'comment_text': '买这个影响我开五菱宏光吗',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169471360',
+ 'comment_text': '让了，我去买游艇了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169471165',
+ 'comment_text': '有解毒的么？没我就买了啊',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169469110',
+ 'comment_text': '这手机卖了好几年也没人买',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169468957',
+ 'comment_text': '明明就是条眼镜蛆',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169468528',
+ 'comment_text': '等一手百亿补贴',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169468458',
+ 'comment_text': '没上120w充电，不方便。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169467997',
+ 'comment_text': '去二线城市买五套房不香吗',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169467468',
+ 'comment_text': '都不是翻盖的，档次真低。',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169466513',
+ 'comment_text': '屏幕太小，不然肯定买了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169465367',
+ 'comment_text': '我们老板用的就是这个， 然后因为不能发微信 ，就不用了， 现在给我当备用机了 。感觉打电话信号不是特别好 ，充电还特别慢',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169465163',
+ 'comment_text': '月薪3千的我竟然点了直达链接',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169464874',
+ 'comment_text': '唯利是图？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169464120',
+ 'comment_text': '要不是余额不足，差点就冲动消费了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169462981',
+ 'comment_text': '我想买个老年机',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/>
+{'comment_id': 'li_comment_169461535',
+ 'comment_text': '你确认收货我返你10元',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24554015/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169483736',
+ 'comment_text': '昨天山姆买的5300',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169481069',
+ 'comment_text': '珍爱心情',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169479118',
+ 'comment_text': '拥有超高的档次感',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169478887',
+ 'comment_text': '还涨了一千远，升值的',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169474635',
+ 'comment_text': '真爱生命 远离华为',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169472917',
+ 'comment_text': '安心等待新机上市',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169465520',
+ 'comment_text': '这是要告诉我支持民族产业的代价比较沉重么',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169462626',
+ 'comment_text': '带硬推的？',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169458559',
+ 'comment_text': '买买买，不买还要涨价！',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554015/>
+{'comment_id': 'li_comment_169457919',
+ 'comment_text': '这个能推是什么鬼？感觉像刚发售？',
+ 'good_name': 'HUAWEI 华为 P40 Pro 5G 智能手机 8GB 128GB/256GB',
+ 'goods_id': '24554015'}
+2020-09-06 11:10:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24545777/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169469909',
+ 'comment_text': '很服。你要是真有骨气你就连智能手机都用不上了，不怕谷歌在安卓上留漏洞？？买个东西不专注产品本身',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169461635',
+ 'comment_text': '挺好用的为什么那，苹果适合我妈辈用，我喜欢折腾安卓',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169460770',
+ 'comment_text': '我都记不清国内5G手机已经卖了多久了',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169457090',
+ 'comment_text': '把你的安卓砸了用塞班吧',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169455177',
+ 'comment_text': '前阵子北京消费券4499没下单，有点后悔了',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169450679',
+ 'comment_text': '其实你也可以多买点苹果，说不定哪天中国哪天禁了也升值了',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169449595',
+ 'comment_text': '保值，点个赞先',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169447641',
+ 'comment_text': '你多买点华为，绝版了能升值',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169447601',
+ 'comment_text': '自带十二个赞',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24545777/>
+{'comment_id': 'li_comment_169446807',
+ 'comment_text': '国人，呵呵！人家都欺负到家门口了，还',
+ 'good_name': 'Apple 苹果 iPhone XS 智能手机 256GB',
+ 'goods_id': '24545777'}
+2020-09-06 11:10:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24561524/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169480447',
+ 'comment_text': '差不多9年前的工艺了吧',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169480404',
+ 'comment_text': '芯片都不敢标了，良心想起码还敢万年636。',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169479388',
+ 'comment_text': '金立还有人买了么？',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169478480',
+ 'comment_text': '只要一个怎么办',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169478381',
+ 'comment_text': '16nm?我没看错吧这是好几年前的工艺了金立🐮直接把消费者当傻子',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169475828',
+ 'comment_text': '🐮🍺，微信8开',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169475826',
+ 'comment_text': '金品质，立天下',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169475392',
+ 'comment_text': '当初天王代言时候多火，现在这个机子，用mtk6763连625都不如，金立这是作死。卖这个价不倒闭才怪',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169475350',
+ 'comment_text': '金立不是退市了么？',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169474896',
+ 'comment_text': '全是广告其他没有！',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169474414',
+ 'comment_text': '微信8开不怕封号啊',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169474412',
+ 'comment_text': '超长待机，超大铃声',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169474272',
+ 'comment_text': '金立居然还在啊',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169473611',
+ 'comment_text': '如果能刷miui就好玩了',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169473429',
+ 'comment_text': '系统优化不行',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169473386',
+ 'comment_text': '',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24561524/>
+{'comment_id': 'li_comment_169473181',
+ 'comment_text': '天王手机',
+ 'good_name': '金立 Gionee 金立K3 6GB+128GB 黑色 5000mAh大电池 后置双摄 6.2英寸水滴屏 微信8开 全网通4G '
+              '双卡双待 *2件',
+ 'goods_id': '24561524'}
+2020-09-06 11:10:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24552335/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169481826',
+ 'comment_text': '3999才是最后归宿',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169481617',
+ 'comment_text': '等等党血本无归啊',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169481577',
+ 'comment_text': '国行不是也支持5g么？难道note10+的5g和note20还有区别？',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169475555',
+ 'comment_text': '就不要用这个手机了',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169475220',
+ 'comment_text': '好看，买不起',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169474520',
+ 'comment_text': '当然20+   和5G不5G卡没关系',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169474312',
+ 'comment_text': '还这么坚挺啊😱',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169463701',
+ 'comment_text': '看来快退市了，开始涨价模式了',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169457535',
+ 'comment_text': '3699双11交个朋友',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169451106',
+ 'comment_text': '居然涨价了，今年的note20可想而知有多失败！',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169446391',
+ 'comment_text': '5298，5398，5498',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169446385',
+ 'comment_text': '5g卡，选这个还是20+',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169443626',
+ 'comment_text': '等等党大败',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169443252',
+ 'comment_text': '4999朋友交定了',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169443202',
+ 'comment_text': '4999交个朋友',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169443194',
+ 'comment_text': '4999交个朋友……',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169443164',
+ 'comment_text': '是98 老铁',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552335/>
+{'comment_id': 'li_comment_169442122',
+ 'comment_text': '我去 又涨99',
+ 'good_name': 'SAMSUNG 三星 Galaxy Note10+ 5G智能手机 12GB+256GB',
+ 'goods_id': '24552335'}
+2020-09-06 11:10:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24554810/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169472439',
+ 'comment_text': '你还退啥啊，被k30至尊打成筛子',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169465402',
+ 'comment_text': '哪里买的？',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169462592',
+ 'comment_text': '卖不＋价收个',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169454638',
+ 'comment_text': '不降反增，时代变了，你不降就等k40pro了',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169453211',
+ 'comment_text': '同问，紫薯布丁',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169451925',
+ 'comment_text': '在哪里买，私聊',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169450832',
+ 'comment_text': '12+512 也只3100买的',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24554810/>
+{'comment_id': 'li_comment_169449211',
+ 'comment_text': '估计库存清的差不多了，越来越贵了',
+ 'good_name': 'Redmi 红米 K30 Pro 智能手机 变焦版 8GB+256GB',
+ 'goods_id': '24554810'}
+2020-09-06 11:10:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24552510/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169483171',
+ 'comment_text': '上次好价是4099',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169480974',
+ 'comment_text': '反正都是外置充电宝，待机一小时和5小时有区别？',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169480547',
+ 'comment_text': '5399已下车！耳机等7天确认！使用了两天，感觉没啥惊喜',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169479518',
+ 'comment_text': '功能机给换a13待机一小时还很香对吧',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169476002',
+ 'comment_text': '4399可以接受',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169475998',
+ 'comment_text': '手持s20u，屏幕很好，就是为这块屏幕买的，另外备用机mate30,别买华为华而不实为所欲为，屏幕瞎眼睛',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169475176',
+ 'comment_text': '果粉真是自欺欺人',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169474383',
+ 'comment_text': '功能机给上个a13我也买',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169473416',
+ 'comment_text': '古董换芯产物就不要拿出来说了，你不说诺基亚的功能机？',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169471384',
+ 'comment_text': '有没有的送？有的送就下单了',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169470807',
+ 'comment_text': '没有256g的版本',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169470724',
+ 'comment_text': '拼多多买的三星有礼品卡吗？',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169468011',
+ 'comment_text': '低收入人群表示，再等等，等明年一定',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169466231',
+ 'comment_text': '送1000元积分这个价格就划算了',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169464359',
+ 'comment_text': '🤣这么便宜了吗？',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169463503',
+ 'comment_text': '我也不知，所以才问的',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169462848',
+ 'comment_text': 'Se2表示不服',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169462465',
+ 'comment_text': '會有別的活動',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169460127',
+ 'comment_text': '活动去哪里看？线报',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169460076',
+ 'comment_text': '那不是白白贵了1000块',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169458321',
+ 'comment_text': '明天是不是有新的送东西的活动',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169456318',
+ 'comment_text': '这重量，完爆一切，等活动来一个，那些200g的手机',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169454727',
+ 'comment_text': '如果双十一这个价，256',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169454486',
+ 'comment_text': '9月有没有活动',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169454358',
+ 'comment_text': '耳机好像是到6号活动截止，现在买赶不上了',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169453545',
+ 'comment_text': '积分换的油卡今天圈存了.等下一波送积分给自己再买一个.除了续航其它都满意！',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552510/>
+{'comment_id': 'li_comment_169453432',
+ 'comment_text': '有耳机送吗',
+ 'good_name': 'SAMSUNG 三星 Galaxy S20 智能手机 12GB+128GB',
+ 'goods_id': '24552510'}
+2020-09-06 11:10:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24549877/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169456538',
+ 'comment_text': '盐城，前天同事刚买',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169455106',
+ 'comment_text': '升值器，买了',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169451787',
+ 'comment_text': '这个没有红外',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169451497',
+ 'comment_text': '涨一百了，原来2299',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169451082',
+ 'comment_text': '那里的线下我去买',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169449029',
+ 'comment_text': '可惜没有银色，那个颜色线下看起来是真的好看，虽然有大logo不过感觉也不违和。',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169444959',
+ 'comment_text': '跟畅享20差不多价',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169442059',
+ 'comment_text': '涨了，比之前最低的时候贵了100',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169441237',
+ 'comment_text': '8+128就稳了，虽然不玩游戏，但也觉得6g心里没底。',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169441146',
+ 'comment_text': '线下8+128   2650',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24549877/>
+{'comment_id': 'li_comment_169440576',
+ 'comment_text': '看到985，点值，刚需买了',
+ 'good_name': '百亿补贴：                                HONOR 荣耀 30 5G 智能手机 '
+              '6GB+128GB 绿野仙踪',
+ 'goods_id': '24549877'}
+2020-09-06 11:10:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24552245/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169479203',
+ 'comment_text': '可以啊，设置简洁版，非常简洁啊，哪儿有广告？',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169477127',
+ 'comment_text': '浏览器里面的搜索绝对关不了，搜什么都会推荐app，点了直接下载安装！恶心',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169475324',
+ 'comment_text': '10和10pro声音区别还是很大的，听听就知道了',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169470527',
+ 'comment_text': '我现在每天给手机充电的时间大概就是两三个十分钟。',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169470520',
+ 'comment_text': '怎么说呢，至尊就是充电真的快。其他的还可以比比。',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169468973',
+ 'comment_text': '该有的都有，设置也很难，折腾的很多，很多里面都有',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169468935',
+ 'comment_text': '现在华为 OPPO vivo 一加等等等都有广告了。。。',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169468329',
+ 'comment_text': '和OPPO Find x2比怎么样啊',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169467555',
+ 'comment_text': '金耳朵，10个10p都能听出区别',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169466987',
+ 'comment_text': '这个价格感觉蛮可以了，虽然俺不买粗粮',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169466719',
+ 'comment_text': '怎么就扯到华为来了',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169464967',
+ 'comment_text': '10 10pro 10至尊 里面哪个配置性价比最好啊',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169462923',
+ 'comment_text': '应用商城 天气 日历 上滑搜索界面 钱包  小米自带的音乐 视频 都有广告 哈哈哈',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169462637',
+ 'comment_text': '等双十一入手一个',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169461774',
+ 'comment_text': '这家店怎么样？',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169461039',
+ 'comment_text': '用了3个多月，前天开始断流了，4G断流，隔几分钟会断流几秒，很恶心的感觉',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169459813',
+ 'comment_text': '浏览器可以关广告，非常简洁',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169459482',
+ 'comment_text': '各方面都比荣耀30pro+强',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169457538',
+ 'comment_text': '10没有双扬声器？',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169455230',
+ 'comment_text': '和荣耀30Pro+相比怎样啊？价格相差不多。',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169452701',
+ 'comment_text': '现在华为开始有广告了，应用商店，音乐，视频，还是有开屏广告了',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169452124',
+ 'comment_text': '一直有货，抢什么抢，京东银色这几天一直可以下单，采购中，9.8发货，没人抢',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169451686',
+ 'comment_text': '现在还有人买这个？！都在抢5299的吧',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169451499',
+ 'comment_text': '大师版啥意思？',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169448490',
+ 'comment_text': '除了浏览器一点广告，其他还真没咋见。10pro这个双扬用了真是回不去了，我是米10用了半年又换10pro了',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169445608',
+ 'comment_text': '都可以关，关了之后就没什么广告了。（小米自带软件里的不算）',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169445484',
+ 'comment_text': '买大师版，完全没广告。',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169445047',
+ 'comment_text': '现在就只有主题商店有广告，其他的都可以关掉',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552245/>
+{'comment_id': 'li_comment_169441553',
+ 'comment_text': '我想知道小米系统还是不是那么多广告了？',
+ 'good_name': '百亿补贴：                                MI 小米 10 Pro 智能手机 8GB '
+              '256GB',
+ 'goods_id': '24552245'}
+2020-09-06 11:10:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24548185/#comments> (referer: https://www.smzdm.com/fenlei/zhinengshouji/h5c4s0f0t0p1/)
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169483138',
+ 'comment_text': '就是个路人',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169482260',
+ 'comment_text': '系统其实挺好用的啊，给我不少惊喜的手机…',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169477396',
+ 'comment_text': '机器还可以，6.18时买的，手感没得说，重量够轻，续航差了点毕竟电池小，不过中度使用一天也够了，之前一直使用的moto，主动功能很好用但费电呀，电池完全不够用。',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169474928',
+ 'comment_text': '765处理器卖这么贵',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169471588',
+ 'comment_text': '中兴其实硬件不错的，但是使用起来还是没别的国产机好用，导致没落了',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169468230',
+ 'comment_text': '765也敢上2000？牛*了中兴，作死吧。',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169465247',
+ 'comment_text': '8+128这个价就不错了',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169465181',
+ 'comment_text': '弄不好卖家还得再贴个女朋友才能满足',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169461951',
+ 'comment_text': '照相不好吗，这个照相跟哪一款比较合适',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169461439',
+ 'comment_text': '双曲面屏幕，这个价格基本超值',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169460363',
+ 'comment_text': '别的都不错，系统万年不更新！',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169458825',
+ 'comment_text': '以后再也不支持了，中兴确实该关了。买过七八个了，更老的苹果和华为都还能用，就你基本就快用不成了',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169458337',
+ 'comment_text': '在用 '
+                 '说句实话。4000电池只不到8mm的手感重量控制很好。换别家吹上天了。中兴的广告看不到。这款手机缺点是5g不是全模式。摄像头一般。使用体验很好。',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169455369',
+ 'comment_text': '你还没走啊？等那个谁的一起上路啊？',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169455308',
+ 'comment_text': 'u差点意思',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169454544',
+ 'comment_text': '中兴手机用过一个，从此',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169451411',
+ 'comment_text': '一般都是卖家贴钱送的',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169450918',
+ 'comment_text': '8G可以考虑',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169449685',
+ 'comment_text': '这个价格没有竞争力',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169446154',
+ 'comment_text': '如果是8+256这配置就无敌了',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24548185/>
+{'comment_id': 'li_comment_169445575',
+ 'comment_text': '1300以下差不多',
+ 'good_name': 'ZTE 中兴 天机Axon 11 5G智能手机 6GB+128GB',
+ 'goods_id': '24548185'}
+2020-09-06 11:10:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.smzdm.com/p/24552289/p2/#comments> (referer: https://www.smzdm.com/p/24552289/)
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169461319',
+ 'comment_text': '没记错的话，这台手机卖了几年了？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169461172',
+ 'comment_text': '买个直升机它不香吗',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169460227',
+ 'comment_text': '这机放在头顶上，倍有面的！',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169458746',
+ 'comment_text': '这么贵也推？！',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169457831',
+ 'comment_text': '不喜欢这条眼镜蛇，要是条蛆我就买了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169457679',
+ 'comment_text': '有券领吗？满199减100那种',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169457521',
+ 'comment_text': '以为送直升机，那还挺值的',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169456728',
+ 'comment_text': '2000我都不一定买，6g来了你都卖不出去，老板自己用吧，',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169456500',
+ 'comment_text': '差评，没有拼多多的链接',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169456264',
+ 'comment_text': '可以7天无理由退款吗？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169454399',
+ 'comment_text': '不是自营，大家要谨慎啊',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169453044',
+ 'comment_text': '几年了，还没有土豪买？等我搬砖攒钱？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169452343',
+ 'comment_text': '不是破产了吗？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169452109',
+ 'comment_text': '我送你10元优惠券',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169450837',
+ 'comment_text': '你要我可以送你一张',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169450818',
+ 'comment_text': '这屏幕看动画片不行，算了让了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169450640',
+ 'comment_text': '这购物软件不是来捡漏的吗？',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169450094',
+ 'comment_text': '好像可以下个10多单  买下来就虚假宣传 只有一台又不是很想买  还好最近自己周转手头没什么现金 让给大家了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169449905',
+ 'comment_text': '屏幕太小不适合追剧，让了让了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169449397',
+ 'comment_text': '给个五元优惠券我也秒不起啊',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169449049',
+ 'comment_text': '5元优惠券没领到，不然就下单了',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169448677',
+ 'comment_text': '还没卖出去',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169448223',
+ 'comment_text': '啥破玩应。。。。这屏幕怎么推塔！！！',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169445480',
+ 'comment_text': '有这钱我买85辆五菱宏光mini不香吗',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.smzdm.com/p/24552289/p2/>
+{'comment_id': 'li_comment_169444731',
+ 'comment_text': '这手机能上张大妈么',
+ 'good_name': 'VERTU 纬图 SIGNATURE 系列手机 眼镜蛇限量版',
+ 'goods_id': '24552289'}
+2020-09-06 11:10:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-09-06 11:10:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5657,
+ 'downloader/request_count': 12,
+ 'downloader/request_method_count/GET': 12,
+ 'downloader/response_bytes': 579771,
+ 'downloader/response_count': 12,
+ 'downloader/response_status_count/200': 12,
+ 'elapsed_time_seconds': 43.134681,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 9, 6, 3, 10, 40, 384678),
+ 'item_scraped_count': 207,
+ 'log_count/DEBUG': 219,
+ 'log_count/INFO': 10,
+ 'memusage/max': 606674944,
+ 'memusage/startup': 606674944,
+ 'request_depth_max': 2,
+ 'response_received_count': 12,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2020, 9, 6, 3, 9, 57, 249997)}
+2020-09-06 11:10:40 [scrapy.core.engine] INFO: Spider closed (finished)

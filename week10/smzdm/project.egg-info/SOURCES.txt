@@ -1,0 +1,14 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+smzdm/__init__.py
+smzdm/config.py
+smzdm/items.py
+smzdm/middlewares.py
+smzdm/pipelines.py
+smzdm/settings.py
+smzdm/spiders/__init__.py
+smzdm/spiders/smzdm_comment.py

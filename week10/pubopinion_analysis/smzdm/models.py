@@ -8,6 +8,27 @@
 from django.db import models
 
 
+class AnalysisComments(models.Model):
+    comm_id = models.CharField(primary_key=True, max_length=20)
+    content = models.CharField(max_length=1000, blank=True, null=True)
+    sentiments = models.FloatField(blank=True, null=True)
+    good = models.ForeignKey('Goods', models.DO_NOTHING)
+
+    class Meta:
+        managed = False
+        db_table = 'analysis_comments'
+
+
+class DjangoMigrations(models.Model):
+    app = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
+    applied = models.DateTimeField()
+
+    class Meta:
+        managed = False
+        db_table = 'django_migrations'
+
+
 class Goods(models.Model):
     good_id = models.CharField(primary_key=True, max_length=8)
     good_name = models.CharField(max_length=50, blank=True, null=True)
@@ -21,18 +42,8 @@ class OriginComments(models.Model):
     comm_id = models.CharField(primary_key=True, max_length=20)
     content = models.CharField(max_length=1000, blank=True, null=True)
     good = models.ForeignKey(Goods, models.DO_NOTHING)
+    time = models.DateTimeField(blank=True, null=True)
 
     class Meta:
         managed = False
         db_table = 'origin_comments'
-
-
-class AnalysisComments(models.Model):
-    comm_id = models.CharField(primary_key=True, max_length=20)
-    content = models.CharField(max_length=1000, blank=True, null=True)
-    sentiments = models.FloatField(blank=True, null=True)
-    good = models.ForeignKey('Goods', models.DO_NOTHING)
-
-    class Meta:
-        managed = False
-        db_table = 'analysis_comments'

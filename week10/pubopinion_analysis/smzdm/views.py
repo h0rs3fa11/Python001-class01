@@ -3,6 +3,7 @@ from .models import Goods
 from .models import OriginComments
 from .models import AnalysisComments
 from django.db.models import Avg
+from datetime import datetime
 from django.http import HttpResponse
 
 
@@ -16,8 +17,6 @@ def index(request):
     goods_count = Goods.objects.all().count()
     # 评论总数
     comment_count = OriginComments.objects.all().count()
-    analysis_comment = AnalysisComments.objects.all().select_related('good')
-
     return render(request, 'index.html', locals())
 
 
@@ -46,11 +45,13 @@ def good_info(request, id):
 
 def search(request):
     query = request.GET.get('q')
-    if not query:
-        err_msg = '请输入关键词'
-        return render(request, 'search_result.html', {"error_msg": err_msg, "result": None})
-
-    goods_result = Goods.objects.filter(good_name__icontains=query)
-    comment_result = OriginComments.objects.filter(content__icontains=query)
+    try:
+        search_date = datetime.strptime(query, "%Y-%m-%d")
+        query_date = search_date.strftime("%Y-%m-%d")
+        goods_result = None
+        comment_result = OriginComments.objects.filter(time__gte=query_date)
+    except ValueError:
+        goods_result = Goods.objects.filter(good_name__icontains=query)
+        comment_result = OriginComments.objects.filter(content__icontains=query)
     return render(request, 'comment_search_result.html',
                   {'error_msg': 0, 'result': {"goods": goods_result, "comments": comment_result}})
